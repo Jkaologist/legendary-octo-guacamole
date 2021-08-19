@@ -1,8 +1,11 @@
 package com.jonk;
 
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String hello = "Hello ";
+        sayHello(hello);
+    }
+    public static void sayHello(String str) {
+        System.out.println(str + "World!");
     }
 }
