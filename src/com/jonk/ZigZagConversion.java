@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class ZigZagConversion {
     public static String zigZag(String s, int numRows) {
+        StringBuilder strBuilder = new StringBuilder();
         if (numRows == 1) {
             return s;
         }
